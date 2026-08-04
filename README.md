@@ -37,3 +37,27 @@ This repository contains my Product Owner portfolio project, including product v
 - Roadmapping
 - Wireframing
 - Stakeholder Communication
+
+- ---
+
+## 🚀 Featured Project
+
+### 🏥 Healthcare Appointment Scheduling App
+
+A Product Owner portfolio project demonstrating Agile product management, Scrum planning, Jira backlog management, Confluence documentation, wireframing, and product strategy.
+
+**Project includes:**
+
+- Product Vision
+- Product Requirements
+- Jira Backlog
+- Jira Board
+- User Stories
+- Sprint Planning
+- Confluence Documentation
+- Product Roadmap
+- Wireframes
+
+📁 Location:
+
+`docs/Healthcare Appointment Scheduling App/`
