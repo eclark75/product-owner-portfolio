@@ -48,16 +48,11 @@ A Product Owner portfolio project demonstrating Agile product management, Scrum 
 
 **Project includes:**
 
-- Product Vision
-- Product Requirements
-- Jira Backlog
-- Jira Board
-- User Stories
-- Sprint Planning
-- Confluence Documentation
-- Product Roadmap
-- Wireframes
-
-📁 Location:
-
-`docs/Healthcare Appointment Scheduling App/`
+- [Product Vision](docs/Healthcare%20Appointment%20Scheduling%20App/Product%20Vision)
+- [Product Requirements](docs/Healthcare%20Appointment%20Scheduling%20App/Product%20Requirements)
+- [Jira Backlog](docs/Healthcare%20Appointment%20Scheduling%20App/backlog)
+- [User Stories](docs/Healthcare%20Appointment%20Scheduling%20App/user-stories)
+- [Sprint Planning](docs/Healthcare%20Appointment%20Scheduling%20App/Sprint%20Planning)
+- [Confluence Documentation](docs/Healthcare%20Appointment%20Scheduling%20App/Confluence)
+- [Product Roadmap](docs/Healthcare%20Appointment%20Scheduling%20App/Roadmap)
+- [Wireframes](docs/wireframes)
