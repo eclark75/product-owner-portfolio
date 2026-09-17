@@ -47,4 +47,3 @@ The **DSD Mobile Inventory Portal** provides route drivers and receiving store m
 * **Security & Compliance:** Role-Based Access Control (RBAC) separating Driver, Store Receiver, and Dispatcher permissions; encrypted local storage (AES-256).
 * **Reliability:** Zero data loss during unexpected device battery termination or forced application closure.
 
-
