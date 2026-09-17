@@ -1,50 +1,50 @@
 # Product Requirements Document (PRD)
 
-**Document ID:** PRD-001  
-**Feature Name:** Direct-Store Delivery (DSD) Mobile Order & Inventory Portal  
-**Domain:** Field Operations & Inventory Management  
-**Role:** Product Owner / Business Analyst  
+## Direct Store Delivery (DSD) Mobile Inventory & Order Portal
+
+**Document Version:** 2.0  
+**Status:** Approved for Development  
+**Author:** Product Owner / Business Analyst  
+**Target Delivery:** Q4 Sprint Cycle  
 
 ---
 
-## 1. Overview & Problem Statement
-Direct-Store Delivery (DSD) leads and retail grocery store managers currently rely on paper invoicing, manual phone check-ins, and physical shelf audits to manage frozen pizza distribution. This causes stockouts during peak demand, delayed replenishment, and end-of-day billing reconciliation friction across high-volume accounts ($500K–$700K ARR).
+## 1. Executive Summary & Problem Statement
+Direct Store Delivery (DSD) distributors experience inventory leakage, invoice write-downs, and delivery route delays due to paper-based manifests and poor cellular connectivity at retail receiving bays. 
 
-The **DSD Mobile Order & Inventory Portal** provides a mobile interface for route specialists to log store inventory, check real-time truck capacity, and apply pre-approved promotional pricing directly at the store shelf.
-
----
-
-## 2. Business Objectives & Key Performance Indicators (KPIs)
-* **Reconciliation Time:** Reduce daily route reconciliation from 45 minutes to < 10 minutes per route.
-* **Out-of-Stock Reduction:** Reduce stockout occurrences across retail partner accounts by 25% within 6 months of rollout.
-* **Invoice Accuracy:** Achieve 99.5% billing accuracy by automating store-tier volume pricing rules.
+The **DSD Mobile Inventory Portal** provides route drivers and receiving store managers with an offline-first mobile check-in engine, real-time discrepancy alerts, and electronic Proof of Delivery (ePOD).
 
 ---
 
-## 3. User Personas
-
-### Marcus Vance — DSD Route & Sales Lead
-* **Need:** Fast inventory logging, real-time van stock counts (60–75 cases/day), instant digital invoice generation.
-* **Pain Point:** Manual paper slips get lost or damaged; manual tallying leads to end-of-day math errors.
-
-### Sarah Jenkins — Grocery Store Frozen Dept. Manager
-* **Need:** Transparent delivery tracking, clear volume pricing, instant digital receipts.
-* **Pain Point:** Unpredictable restock times and friction verifying delivered counts against physical invoices.
+## 2. Measurable Business Goals (KPIs)
+* **Invoice Reconciliation Speed:** Reduce dock intake check-in time by ≥ 35% per delivery stop.
+* **Shrinkage & Dispute Reduction:** Decrease delivery discrepancy claims and billing write-downs by 50%.
+* **Data Freshness:** Achieve 100% cloud manifest synchronization within 2 minutes of device network reconnection.
 
 ---
 
-## 4. High-Level Requirements & Scope
+## 3. Core Functional Requirements
 
-### Must Have (P0)
-* Offline-first mobile order entry for walk-in freezer environments.
-* Real-time truck inventory decrementing upon delivery sign-off.
-* Automated tiered pricing engine (store-specific volume discounts).
-* Digital signature capture on delivery completion.
+### 3.1 Offline Barcode Intake Engine
+* Local SQLite cache storing active route manifests and GS1-128 product barcodes.
+* Real-time crate scanning without latency in disconnected/low-signal environments.
+* Automatic delta-sync daemon executing when continuous network is detected for ≥ 5 seconds.
 
-### Should Have (P1)
-* Low-stock warning triggers based on historical weekly order volume.
-* Portable Bluetooth receipt printer integration.
+### 3.2 Real-Time Discrepancy & Short-Shipment Management
+* Visual triage alerts displayed when physically scanned inventory does not match planned order quantities.
+* Dual-authorization PIN verification (Driver + Store Receiver) required to confirm short-shipments before invoice generation.
+* Automated dynamic recalculation of delivery billing based strictly on verified on-dock units.
 
-### Out of Scope (Phase 1)
-* Direct third-party ERP integrations (slated for Phase 2).
-* In-app credit card processing (all deliveries remain billed on net terms).
+### 3.3 Electronic Proof of Delivery (ePOD)
+* Digital signature capture canvas recording receiver sign-off.
+* Cryptographic audit payload generating SHA-256 hash, GPS coordinates, and UTC timestamps.
+* Automated dispatch of signed PDF delivery receipts to store accounting contacts within 60 seconds of sync.
+
+---
+
+## 4. Technical & Non-Functional Specifications
+* **Architecture:** Mobile PWA / Hybrid Client with local IndexedDB/SQLite storage and RESTful backend sync.
+* **Security & Compliance:** Role-Based Access Control (RBAC) separating Driver, Store Receiver, and Dispatcher permissions; encrypted local storage (AES-256).
+* **Reliability:** Zero data loss during unexpected device battery termination or forced application closure.
+
+
