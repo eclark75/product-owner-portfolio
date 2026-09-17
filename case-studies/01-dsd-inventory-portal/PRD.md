@@ -46,4 +46,24 @@ The **DSD Mobile Inventory Portal** provides route drivers and receiving store m
 * **Architecture:** Mobile PWA / Hybrid Client with local IndexedDB/SQLite storage and RESTful backend sync.
 * **Security & Compliance:** Role-Based Access Control (RBAC) separating Driver, Store Receiver, and Dispatcher permissions; encrypted local storage (AES-256).
 * **Reliability:** Zero data loss during unexpected device battery termination or forced application closure.
+sequenceDiagram
+    autonumber
+    actor Driver as Route Driver
+    participant App as Mobile UI
+    participant DB as Local SQLite Cache
+    participant Cloud as Cloud Inventory API
+    actor Receiver as Store Receiver
 
+    Note over Driver,App: Retail Bay (Offline Mode)
+    Driver->>App: Scan Crate Barcodes (GS1-128)
+    App->>DB: Store scan record ("Offline Staged")
+    App-->>Driver: Display tally & short-shipment alerts
+
+    Driver->>Receiver: Verify discrepancies on-dock
+    Receiver->>App: PIN Sign-off & digital ePOD capture
+    App->>DB: Cryptographic hash & timestamp stored
+
+    Note over App,Cloud: Driver returns to cellular/Wi-Fi coverage
+    App->>Cloud: Auto-sync queued manifest & signatures
+    Cloud-->>App: Acknowledge sync (Status: "Synced")
+    Cloud->>Receiver: Automated PDF receipt emailed (60s SLA)
