@@ -66,3 +66,14 @@ A Product Owner portfolio project demonstrating Agile product management, Scrum 
   * 📄 [Product Requirements Document (PRD)](./case-studies/01-dsd-inventory-portal/PRD.md)
   * 📋 [Jira User Stories & Gherkin Acceptance Criteria](./case-studies/01-dsd-inventory-portal/user-stories-backlog.md)
 * **Key Focus Areas:** Offline-First Data Capture, Dynamic Volume Pricing Engine, Real-Time Truck Inventory Decrementing, Stakeholder Acceptance.
+## Process Architecture: High-Throughput Refurbishment Pipeline
+
+### Overview
+Visual operational workflow and quality control architecture engineered at Hinckley Springs, balancing strict hygiene standards with high cycle-time efficiency.
+
+![Hinckley Springs Refurbishment Pipeline](./hinckley-springs-assembly-flow%20(1).jpg)
+
+### Core Architectural Gates
+* **Stage 1 Viability Triage:** Upfront screening that diverts compromised or hazardous units directly to scrap and electrical salvage, protecting clean line teardown.
+* **Closed QA Feedback Loop (Stage 4 → Stage 3):** Units failing mechanical verification or cosmetic polish route dynamically back into sub-assembly rather than scrap, maximizing asset yield.
+* **Operational Metrics:** Maintained steady-state throughput of **90 units/shift** while enforcing a **zero field-defect** policy across distribution.
