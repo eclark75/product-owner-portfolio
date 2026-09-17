@@ -56,3 +56,13 @@ A Product Owner portfolio project demonstrating Agile product management, Scrum 
 - [Confluence Documentation](docs/Healthcare%20Appointment%20Scheduling%20App/Confluence)
 - [Product Roadmap](docs/Healthcare%20Appointment%20Scheduling%20App/Roadmap)
 - [Wireframes](docs/wireframes)
+---
+
+## 📦 Featured Case Study: Direct-Store Delivery (DSD) Inventory Portal
+**Role:** Product Owner / Business Analyst  
+**Domain:** Field Logistics, Retail Distribution & Demand Forecasting  
+
+* **Deliverables:**
+  * 📄 [Product Requirements Document (PRD)](./case-studies/01-dsd-inventory-portal/PRD.md)
+  * 📋 [Jira User Stories & Gherkin Acceptance Criteria](./case-studies/01-dsd-inventory-portal/user-stories-backlog.md)
+* **Key Focus Areas:** Offline-First Data Capture, Dynamic Volume Pricing Engine, Real-Time Truck Inventory Decrementing, Stakeholder Acceptance.
