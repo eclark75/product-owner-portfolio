@@ -1,6 +1,89 @@
-# Jira User Stories & Acceptance Criteria
+ # Jira User Stories & Acceptance Criteria
 
-**Epic:** `EPIC-101: Field Order Capture & Inventory Deduction`  
+**Epic:** EPIC-101: Field Order Capture & Inventory Deduction  
+**Product:** DSD Mobile Order & Inventory Portal  
+**Author:** Product Owner / Business Analyst  
+**Methodology:** Scrum / Kanban Hybrid  
+**Status:** Ready for Sprint Planning  
+
+---
+
+## Strategic Intent
+Eliminate reconciliation discrepancies between delivery driver stock and retail receiving docks by introducing offline-first barcode scanning, automated shortage triage, and real-time electronic Proof of Delivery (ePOD).
+
+---
+
+## User Stories & Gherkin Acceptance Criteria
+
+### Story 1: Offline Order Entry & Barcode Scanning
+* **Issue Key:** DSD-101
+* **Priority:** High (P1)
+* **Story Points:** 5
+* **User Story:**  
+  *As a* Route Delivery Driver,  
+  *I want to* scan crate barcodes and capture orders while in offline mode,  
+  *So that* distribution check-in velocity is not halted by retail basement dead zones.
+
+#### Acceptance Criteria
+* **Scenario 1: Scan execution in disconnected state**
+  * **Given** the driver device has no active Wi-Fi or cellular connectivity,
+  * **When** the driver scans a valid GS1-128 crate barcode,
+  * **Then** the system validates the scan against the locally cached daily manifest,
+  * **And** flags the line item with an "Offline Staged" badge.
+* **Scenario 2: Automatic delta sync upon reconnection**
+  * **Given** 1 or more scans are queued locally on the handheld device,
+  * **When** network connectivity is re-established for $\ge 5$ consecutive seconds,
+  * **Then** the application executes a background sync against the inventory service,
+  * **And** updates the UI status indicator to "Synced".
+
+---
+
+### Story 2: Discrepancy Flagging & Short-Shipment Triage
+* **Issue Key:** DSD-102
+* **Priority:** Critical (P0)
+* **Story Points:** 8
+* **User Story:**  
+  *As a* Receiving Store Manager,  
+  *I want* the system to flag manifest shortfalls immediately prior to invoice sign-off,  
+  *So that* the final bill reflects verified received quantities rather than planned manifest numbers.
+
+#### Acceptance Criteria
+* **Scenario 1: Intake count shortfall**
+  * **Given** a planned order of 40 cases for SKU #8821,
+  * **When** the driver intake scan logs only 36 physical cases,
+  * **Then** the portal triggers a blocking alert: `"Shortfall Detected: -4 units for SKU #8821"`,
+  * **And** requires both driver and receiver PIN verification to proceed.
+* **Scenario 2: Real-time invoice adjustment**
+  * **Given** a verified shortfall has been authorized by both parties,
+  * **When** the final delivery ticket is compiled,
+  * **Then** the invoice total recalculates immediately for the 36 delivered units,
+  * **And** a return/shortage record routes automatically to central dispatch.
+
+---
+
+### Story 3: Electronic Proof of Delivery (ePOD) & Sign-Off
+* **Issue Key:** DSD-103
+* **Priority:** High (P1)
+* **Story Points:** 3
+* **User Story:**  
+  *As a* Route Delivery Driver,  
+  *I want* to capture an electronic signature and store receiver ID on glass,  
+  *So that* delivery disputes and shrinkage claims have an auditable digital trail.
+
+#### Acceptance Criteria
+* **Scenario 1: Sign-off verification**
+  * **Given** all manifest line items are marked accepted or short,
+  * **When** the receiving manager signs the device screen and enters their employee ID,
+  * **Then** the record generates a SHA-256 digital stamp containing GPS coordinates and timestamps,
+  * **And** dispatches a finalized PDF receipt to the store contact within 60 seconds.
+
+---
+
+## Definition of Done (DoD)
+* **Testing:** All Gherkin scenarios verified through automated unit/integration test suites.
+* **Data Integrity:** Local client storage (IndexedDB/SQLite) retains transaction queues across forced app closures.
+* **Traceability:** User stories linked to Figma UI mocks and Jira acceptance criteria fields.
+* **Architecture:** Payload contracts and error states documented in Confluence.
 **Product:** DSD Mobile Order & Inventory Portal  
 **Author:** Product Owner / Business Analyst  
 
