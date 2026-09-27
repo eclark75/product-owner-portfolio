@@ -41,10 +41,8 @@ To prevent mid-sprint derailment from urgent operational issues:
 * **Executive Presentation Deck:** Summary deck walking through the operational model and pipeline architecture.
 * **Prioritization Template:** Standardized scoring sheet for operational backlog intake.
 * **Process Flow Diagrams:** Visual mapping of cross-departmental handoffs.
-
----
-
 ## 👤 Author
+
 **Eric Clark**  
-*Certified Scrum Product Owner (CSPO, ICP-BAF)*  
-[LinkedIn](https://linkedin.com/in/ericclark) | [GitHub Profile](https://github.com/eclark75)
+*Certified Scrum Product Owner (CSPO) | Business Agility (ICP-BAF) | HubSpot Revenue Operations Certified*  
+[LinkedIn](https://www.linkedin.com) | [GitHub Profile](https://github.com/eclark75)
