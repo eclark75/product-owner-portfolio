@@ -1,12 +1,22 @@
 # Product, Business Agility & RevOps Portfolio
 
-Welcome! I am **Eric Clark, CSPO, ICP-BAF**, a cross-functional professional bridging business operations, Agile product delivery, and revenue operations.
+Welcome! I am Eric Clark, CSPO, ICP-BAF, HubSpot RevOps Certified, a cross-functional professional specializing in Go-To-Market architecture, revenue operations, and business systems delivery.
 
 This repository serves as a centralized hub documenting end-to-end product artifacts, value stream analyses, operational frameworks, and CRM data architectures that demonstrate how Revenue Operations (RevOps) principles directly integrate with Agile and Scrum frameworks.
 
 ---
 
-## 🎯 Strategic Approach: RevOps Meets Agile & Scrum
+## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
+
+This case study models an end-to-end Go-To-Market engine designed in HubSpot CRM, establishing automated lead capture, predictive scoring criteria, cross-functional SLA enforcement, and customer onboarding handoffs.
+
+![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
+
+### Core Revenue Operations Pillars
+* **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
+* **Speed-to-Lead SLA:** Hard-coded < 90 minute outreach mandate for SDR inbound queue assignment.
+* **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
+* **Closed-Won Customer Handoff:** < 24 hour automated kickoff and CSM account reassignment upon contract signature.
 
 Traditional software teams often build features detached from commercial velocity, while go-to-market (GTM) teams struggle with visibility into delivery timelines. My work bridges this gap by:
 
