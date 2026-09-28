@@ -62,3 +62,12 @@ Traditional software teams often build features detached from commercial velocit
 
 * **LinkedIn:** [Eric Clark](https://www.linkedin.com)
 * **Location:** Chicago, IL
+## Go-To-Market Lifecycle & SLA Architecture
+
+![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
+
+### Key Process Controls & SLA Metrics
+* **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
+* **Speed-to-Lead SLA:** Hard-coded < 90 minute outreach mandate for SDR inbound queue assignment.
+* **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
+* **Closed-Won Customer Handoff:** < 24 hour automated kickoff and CSM account reassignment upon contract signature.
