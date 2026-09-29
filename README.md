@@ -2,17 +2,13 @@
 
 Welcome! I am Eric Clark, CSPO, ICP-BAF, HubSpot RevOps Certified, a cross-functional professional specializing in Go-To-Market architecture, revenue operations, and business systems delivery.
 
-This repository serves as a centralized hub documenting end-to-end product artifacts, value stream analyses, operational frameworks, and CRM data architectures that demonstrate how Revenue Operations (RevOps) principles directly integrate with Agile and Scrum frameworks.
 
 ---
 
 ## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
-
-## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
-
 This case study establishes an end-to-end Go-To-Market execution engine aligned with HubSpot CRM standards, documenting automated lead capture, scoring criteria, cross-functional SLA governance, and customer onboarding handoffs.
 
-![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
+![RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.png)
 
 ### Key Process Controls & SLA Metrics
 * **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
@@ -65,9 +61,9 @@ This case study establishes an end-to-end Go-To-Market execution engine aligned 
 * **Location:** Chicago, IL
 ## Go-To-Market Lifecycle & SLA Architecture
 
-![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
+## Go-To-Market Lifecycle & SLA Architecture
 
-### Key Process Controls & SLA Metrics
+![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
 * **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
 * **Speed-to-Lead SLA:** Hard-coded < 90 minute outreach mandate for SDR inbound queue assignment.
 * **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
