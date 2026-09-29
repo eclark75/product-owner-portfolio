@@ -8,26 +8,17 @@ This repository serves as a centralized hub documenting end-to-end product artif
 
 ## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
 
-This case study models an end-to-end Go-To-Market engine designed in HubSpot CRM, establishing automated lead capture, predictive scoring criteria, cross-functional SLA enforcement, and customer onboarding handoffs.
+## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
+
+This case study establishes an end-to-end Go-To-Market execution engine aligned with HubSpot CRM standards, documenting automated lead capture, scoring criteria, cross-functional SLA governance, and customer onboarding handoffs.
 
 ![RevOps GTM Lifecycle & SLA Map](./revops-gtm-lifecycle-map.png)
 
-### Core Revenue Operations Pillars
+### Key Process Controls & SLA Metrics
 * **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
 * **Speed-to-Lead SLA:** Hard-coded < 90 minute outreach mandate for SDR inbound queue assignment.
 * **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
 * **Closed-Won Customer Handoff:** < 24 hour automated kickoff and CSM account reassignment upon contract signature.
-
-Traditional software teams often build features detached from commercial velocity, while go-to-market (GTM) teams struggle with visibility into delivery timelines. My work bridges this gap by:
-
-* **Aligning Funnels with Sprints:** Translating customer churn indicators, pipeline friction, and GTM milestones into prioritized Jira backlog epics and sprint goals.
-* **Value Stream Mapping:** Using ICP-BAF principles to map customer journeys from initial marketing touchpoints through customer onboarding and retention.
-* **Data-Informed Prioritization:** Leveraging operational data, CRM pipeline health, and product metrics to calculate business value before committing development capacity.
-* **Feedback Loops:** Establishing closed-loop mechanisms between customer-facing teams and technical delivery squads.
-
----
-
-## 📂 Portfolio Highlights & Artifacts
 
 ### 1. Product Discovery & User Experience
 * **User Personas & Customer Journeys:** Detailed cross-functional persona profiles (Sales, Operations, End-Users) and journey maps built in Miro and Figma.
