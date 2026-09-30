@@ -1,11 +1,11 @@
 # Product, Business Agility & RevOps Portfolio
 
-Welcome! I am Eric Clark, CSPO, ICP-BAF, HubSpot RevOps Certified, a cross-functional professional specializing in Go-To-Market architecture, revenue operations, and business systems delivery.
-
+Welcome! I am Eric Clark (CSPO, ICP-BAF, HubSpot RevOps Certified), a cross-functional professional specializing in Go-To-Market architecture, revenue operations, and business systems delivery.
 
 ---
 
 ## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
+
 This case study establishes an end-to-end Go-To-Market execution engine aligned with HubSpot CRM standards, documenting automated lead capture, scoring criteria, cross-functional SLA governance, and customer onboarding handoffs.
 
 ![RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.png)
@@ -16,13 +16,17 @@ This case study establishes an end-to-end Go-To-Market execution engine aligned 
 * **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
 * **Closed-Won Customer Handoff:** < 24 hour automated kickoff and CSM account reassignment upon contract signature.
 
+---
+
+## Core Competencies & Deliverables
+
 ### 1. Product Discovery & User Experience
 * **User Personas & Customer Journeys:** Detailed cross-functional persona profiles (Sales, Operations, End-Users) and journey maps built in Miro and Figma.
 * **Problem Statements & Value Propositions:** Defined business cases addressing operational bottlenecks and customer friction points.
 
 ### 2. Backlog Management & Agile Execution
-* **Epics, Features & User Stories:** Structured user stories written with clear acceptance criteria (Given-When-Then) and INVEST principles.
-* **Sprint & Workflow Architecture:** Process diagrams, release milestones, and Kanban/Scrum boards modeled in Jira and Confluence.
+* **Epics, Features & User Stories:** Structured user stories written with clear acceptance criteria (Given-When-Then) following INVEST principles.
+* **Sprint & Workflow Architecture:** Process flow diagrams, release milestones, and Kanban/Scrum boards modeled in Jira and Confluence.
 
 ### 3. RevOps Frameworks & Operational Hygiene
 * **GTM & Product Alignment Models:** Visualized handoffs across marketing, sales, and delivery pipelines.
@@ -46,7 +50,7 @@ This case study establishes an end-to-end Go-To-Market execution engine aligned 
 
 ## 📜 Certifications & Verified Credentials
 
-* **Certified Scrum Product Owner (CSPO)** – Scrum Alliance
+* **Certified Scrum Product Owner (CSPO)** – Scrum Alliance *(Earned Jul 2026)*
 * **ICAgile Certified Professional in Business Agility Foundations (ICP-BAF)** – ICAgile
 * **HubSpot Revenue Operations Certified** – HubSpot Academy *(Valid: Sep 2026 – Oct 2028)*
 * **Reports & Dashboards for Lightning Experience** – Salesforce Trailhead *(Earned Sep 2026)*
@@ -57,8 +61,6 @@ This case study establishes an end-to-end Go-To-Market execution engine aligned 
 
 ## 📬 Connect with Me
 
-* **LinkedIn:** [Eric Clark](https://www.linkedin.com)
+* **LinkedIn:** [linkedin.com/in/eric-clark-817b3b70](https://www.linkedin.com/in/eric-clark-817b3b70/)
+* **Email:** [eclark75@yahoo.com](mailto:eclark75@yahoo.com)
 * **Location:** Chicago, IL
-## Go-To-Market Lifecycle & SLA Architecture
-
-
