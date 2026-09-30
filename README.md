@@ -18,8 +18,7 @@ This case study establishes an end-to-end Go-To-Market execution engine aligned 
 
 ---
 
-## Core Competencies & Deliverables
-
+![RevOps GTM Lifecycle & SLA Map](RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.jpg)
 ### 1. Product Discovery & User Experience
 * **User Personas & Customer Journeys:** Detailed cross-functional persona profiles (Sales, Operations, End-Users) and journey maps built in Miro and Figma.
 * **Problem Statements & Value Propositions:** Defined business cases addressing operational bottlenecks and customer friction points.
