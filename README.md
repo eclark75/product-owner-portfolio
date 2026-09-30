@@ -8,7 +8,7 @@ Welcome! I am Eric Clark (CSPO, ICP-BAF, HubSpot RevOps Certified), a cross-func
 
 This case study establishes an end-to-end Go-To-Market execution engine aligned with HubSpot CRM standards, documenting automated lead capture, scoring criteria, cross-functional SLA governance, and customer onboarding handoffs.
 
-![RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.png)
+![RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.jpg)
 
 ### Key Process Controls & SLA Metrics
 * **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
