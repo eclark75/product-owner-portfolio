@@ -1,65 +1,53 @@
 # Product, Business Agility & RevOps Portfolio
 
-Welcome! I am Eric Clark (CSPO, ICP-BAF, HubSpot RevOps Certified), a cross-functional professional specializing in Go-To-Market architecture, revenue operations, and business systems delivery.
+I'm Eric Clark (CSPO, ICP-BAF, HubSpot RevOps Certified), based in Chicago. I help small teams set up clear pipelines, prioritized backlogs, and simple reporting.
+
+> **Note:** The case studies below are practice and design projects I built to apply Scrum, business agility, and RevOps methods. They are not client engagements, and any numbers shown are targets or examples, not measured results.
 
 ---
 
-## Revenue Operations (RevOps) Case Study: Full-Funnel GTM Lifecycle & SLA Architecture
+## Work With Me
 
-This case study establishes an end-to-end Go-To-Market execution engine aligned with HubSpot CRM standards, documenting automated lead capture, scoring criteria, cross-functional SLA governance, and customer onboarding handoffs.
+* **Pipeline and Reporting Setup (RevOps):** Lead-to-customer process mapping, CRM pipeline configuration, SLA definitions, and visibility dashboards.
+* **Product Owner Support:** Backlog prioritization, user stories with acceptance criteria, product roadmap development, and sprint or Kanban cadence setup.
+* **Business Agility Starter:** Workflow bottleneck assessments, sequence diagramming, and value stream mapping.
 
-![RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.jpg)
-
-### Key Process Controls & SLA Metrics
-* **Lead Ingestion & Qualification:** Automated inbound capture with threshold scoring (50+ points for MQL classification).
-* **Speed-to-Lead SLA:** Hard-coded < 90 minute outreach mandate for SDR inbound queue assignment.
-* **Pipeline Conversion:** Dual-path BANT routing transferring qualified opportunities directly to Account Executives while automating nurture cadences for unqualified prospects.
-* **Closed-Won Customer Handoff:** < 24 hour automated kickoff and CSM account reassignment upon contract signature.
+**Contact:** [eclark75@yahoo.com](mailto:eclark75@yahoo.com) | [LinkedIn](https://linkedin.com/in/eric-clark-817b3b70)
 
 ---
 
-![RevOps GTM Lifecycle & SLA Map](RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.jpg)
-### 1. Product Discovery & User Experience
-* **User Personas & Customer Journeys:** Detailed cross-functional persona profiles (Sales, Operations, End-Users) and journey maps built in Miro and Figma.
-* **Problem Statements & Value Propositions:** Defined business cases addressing operational bottlenecks and customer friction points.
+## Featured Case Studies
 
-### 2. Backlog Management & Agile Execution
-* **Epics, Features & User Stories:** Structured user stories written with clear acceptance criteria (Given-When-Then) following INVEST principles.
-* **Sprint & Workflow Architecture:** Process flow diagrams, release milestones, and Kanban/Scrum boards modeled in Jira and Confluence.
-
-### 3. RevOps Frameworks & Operational Hygiene
-* **GTM & Product Alignment Models:** Visualized handoffs across marketing, sales, and delivery pipelines.
-* **Data Governance & SLA Tracking:** Standardized metrics tracking lead stages, turnaround benchmarks, and customer health scores.
-
-### 4. CRM Analytics & KPI Dashboards
-* **Pipeline Visibility (`Opportunities in Stages`):** Built summary reports in Salesforce Lightning to monitor deal progression, conversion stages, and record distributions across all-time sales lifecycles.
-* **Executive Visualization (`Big Deals`):** Designed an interactive Lightning Dashboard with dynamic donut chart widgets to surface actionable operational KPIs for leadership.
-* **Technical Troubleshooting & Architecture:** Resolved matrix vs. summary data structural conflicts by clearing column grouping dependencies and enforcing clean single-axis stage rollups.
+### 1. DSD Mobile Inventory & Refurbishment Portal
+* **Problem:** Field technicians and warehouse operations faced inventory discrepancy gaps and slow unit turnaround due to manual, fragmented status updates across assembly and staging lines.
+* **Approach:** Designed an end-to-end Direct Store Delivery (DSD) inventory workflow. Mapped user journeys, developed epics and acceptance criteria, and constructed process flow models to structure handoffs from initial intake through refurbishment and final staging.
+* **Deliverables:**
+  * [Case Study Overview & Workflow](./case-studies/01-dsd-inventory-portal)
+  * [Refurbishment Process Map](./cooler-refurb-assembly-workflow.jpg)
+  * PRD & Acceptance Criteria documentation
+* **What I Would Measure:**
+  1. *Turnaround Cycle Time:* Total elapsed hours from unit intake to inventory restock.
+  2. *First-Time Pass Rate:* Percentage of refurbished units passing QA on the initial inspection.
+  3. *Order Fulfillment Lead Time:* Reduction in average turnaround for field van stock replenishment.
+* **Tools:** Jira, Confluence, Miro, Process Mapping.
 
 ---
 
-## 🛠️ Tooling & Methodologies
-
-* **Frameworks & Methodologies:** Scrum, Agile Product Ownership (CSPO), Business Agility Foundations (ICP-BAF), Revenue Operations (RevOps), Value Stream Mapping
-* **CRM & Business Intelligence:** Salesforce Lightning (Summary Reports, Custom Dashboards, KPI Widgets), HubSpot
-* **Collaboration & Design:** Jira, Confluence, Miro, Figma, GitHub
-* **Technical & Analytics:** Data Analytics, Data Hygiene, Linux / Windows PowerShell, System Virtualization (Oracle VM VirtualBox)
-
----
-
-## 📜 Certifications & Verified Credentials
-
-* **Certified Scrum Product Owner (CSPO)** – Scrum Alliance *(Earned Jul 2026)*
-* **ICAgile Certified Professional in Business Agility Foundations (ICP-BAF)** – ICAgile
-* **HubSpot Revenue Operations Certified** – HubSpot Academy *(Valid: Sep 2026 – Oct 2028)*
-* **Reports & Dashboards for Lightning Experience** – Salesforce Trailhead *(Earned Sep 2026)*
-* **Data Analytics Master** – uCertify
-* **Information Technology Security Expert** – uCertify
+### 2. Revenue Operations Lifecycle & SLA Alignment
+* **Problem:** Misalignment between marketing lead capture and sales follow-up created inconsistent handoffs, lack of clear ownership, and reporting blind spots across the funnel.
+* **Approach:** Structured a unified RevOps lifecycle map defining MQL qualification rules, lead acceptance SLAs, and SDR-to-AE account ownership criteria. Drafted reporting requirements to highlight conversion drop-offs.
+* **Deliverables:**
+  * [RevOps GTM Lifecycle & SLA Map](./RevOps%20GTM%20Lifecycle%20%26%20SLA%20Map.jpg)
+  * Pipeline stage definition guide
+  * Executive conversion dashboard wireframes
+* **What I Would Measure:**
+  1. *Speed-to-Lead:* Time from MQL creation to initial SDR outreach (Target: <90 minutes).
+  2. *MQL-to-SQL Conversion Rate:* Percentage of qualified leads accepted by sales reps within 48 hours.
+  3. *Post-Sale Handoff Velocity:* Time from deal close to customer onboarding kick-off (Target: <24 hours).
+* **Tools:** HubSpot, Salesforce Lightning, Miro, Google Sheets.
 
 ---
 
-## 📬 Connect with Me
-
-* **LinkedIn:** [linkedin.com/in/eric-clark-817b3b70](https://www.linkedin.com/in/eric-clark-817b3b70/)
-* **Email:** [eclark75@yahoo.com](mailto:eclark75@yahoo.com)
-* **Location:** Chicago, IL
+## Certifications & Technical Tooling
+* **Credentials:** Certified Scrum Product Owner (CSPO) | ICP-BAF (Business Agility Foundations) | HubSpot Revenue Operations Certified
+* **Product & Ops Tools:** Jira, Confluence, Miro, Figma, Salesforce Lightning, HubSpot CRM, Git/GitHub
